@@ -1,0 +1,11 @@
+# Criação do projeto exemplo k8s vote com helm
+
+helm upgrade --install  vote .  -n vote  --create-namespace
+
+# Acessar:
+
+Votar
+http://localhost:31000/ 
+
+Resultado
+http://localhost:31001/
